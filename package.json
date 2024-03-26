@@ -1,0 +1,21 @@
+{
+  "name": "bs3",
+  "version": "0.0.0",
+  "description": "better-sqlite3 wrapper using node:worker_threads",
+  "main": "lib/src/index.js",
+  "types": "lib/types/index.d.ts",
+  "scripts": {
+    "test": "node test",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rednexie/bs3.git"
+  },
+  "keywords": [ "db", "sql", "sqlite3", "async"],
+  "author": "Rednexie",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^9.4.3"
+  }
+}
